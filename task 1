@@ -1,0 +1,15 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int c,fi,d;
+c=1;
+fi=4;
+d=8;
+cout<<"size of char : "<<c<<endl;
+cout<<"size of int : "<<fi<<endl;
+cout<<"size of float : "<<fi<<endl;
+cout<<"size of double : "<<d<<endl;
+getch();
+}
