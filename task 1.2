@@ -1,16 +1,18 @@
-#include<iostream.h>
-#include<conio.h>
-void main()
+#include <iostream>
+using namespace std;
+
+int main()
 {
-clrscr();
-float a,b,p;
-cout<<"enter the first number"<<endl;
-cin>>a;
-cout<<"enter the second number"<<endl;
-cin>>b;
-p=a*b;
-cout<<"the first number : "<<a<<endl;
-cout<<"the second number : "<<b<<endl;
-cout<<"the product of two number : <<p<<endl;
-getch();
+    double firstNumber, secondNumber, productOfTwoNumbers;
+    cout << "Enter two numbers: ";
+
+    // Stores two floating point numbers in variable firstNumber and secondNumber respectively
+    cin >> firstNumber >> secondNumber;
+ 
+    // Performs multiplication and stores the result in variable productOfTwoNumbers
+    productOfTwoNumbers = firstNumber * secondNumber;  
+
+    cout << "Product = " << productOfTwoNumbers;    
+    
+    return 0;
 }
