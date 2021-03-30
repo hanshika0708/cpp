@@ -1,15 +1,13 @@
-#include<iostream.h>
-#include<conio.h>
-void main()
-{
-clrscr();
-int c,fi,d;
-c=1;
-fi=4;
-d=8;
-cout<<"size of char : "<<c<<endl;
-cout<<"size of int : "<<fi<<endl;
-cout<<"size of float : "<<fi<<endl;
-cout<<"size of double : "<<d<<endl;
-getch();
+#include <iostream>
+using namespace std;
+
+int main() 
+{    
+    cout << "Size of char: " << sizeof(char) << " byte" << endl;
+    cout << "Size of int: " << sizeof(int) << " bytes" << endl;
+    cout << "Size of float: " << sizeof(float) << " bytes" << endl;
+    cout << "Size of double: " << sizeof(double) << " bytes" << endl;
+
+    return 0;
 }
+
